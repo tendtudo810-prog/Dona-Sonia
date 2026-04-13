@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
@@ -24,12 +25,14 @@
                     <li class="bordados"><a href="">Bordados</a></li>
                     <li class="sobre-nos">Sobre</li>
                     <li class="contatos">Contatos</li>
+                    <div class="icons">
                     <li class="carrinho"><a href=""><i class="fa-solid fa-basket-shopping"></i></a></li>
                     <li class="conta"><a href=""><i class="fa-regular fa-circle-user"></i></a></li>
+                    </div>
                 </ul>
             </div>
 
-            <div>
+            <div class="search-bar">
                 <input class="placeholder:text-gray-500 placeholder:italic ..." placeholder="Search for anything..."
                     type="text" name="search" />
             </div>
@@ -44,13 +47,24 @@
     <main>
         <article>
             <h1 class="article-h1">Content Article</h1>
-            <p class="article-p">Content from article</p>
 
-            <div class="card" style="width: 18rem;">
-                <img src="images/brenkee-granny-1280445_1920 1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        cards content.</p>
+            <div class="cards">
+                <div class="card">
+                    <img src="images/soninha.jpeg" alt="Dona Sônia" width="450" height="450" class="card-img">
+                    <h3 class="card-h3">Dona Sônia</h3>
+                    <p class="card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, at!</p>
+                </div>
+
+                <div class="card-1">
+                    <img src="images/soninha-1.jpg" alt="Dona Sônia" width="450" height="450" class="card-img-1">
+                    <h3 class="card-h3">Dona Sônia</h3>
+                    <p class="card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, at!</p>
+                </div>
+
+                <div class="card-2">
+                    <img src="images/soninha-2.jpg" alt="Dona Sônia" width="450" height="450" class="card-img-2">
+                    <h3 class="card-h3">Dona Sônia</h3>
+                    <p class="card-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, at!</p>
                 </div>
             </div>
 
@@ -58,48 +72,103 @@
                 <h1 class="section-h1">Content from section</h1>
                 <p class="section-p">Content from section p</p>
 
-                <div class="card-1" style="width: 18rem;">
-                    <img src="images/vincenttim-couture-7625128_1920 1.png" class="card-img-top-1" alt="Bordado">
-                    <div class="card-body">
-                        <h5 class="card-title-1">R$ 50,00</h5>
-                        <p class="card-text-1">Some quick example text to build on the card title and make up the bulk
-                            of
-                            the cards content.</p>
+                <div class="precos">
+                <div class="card-4">
+                    <div class="bg-white">
+                        <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+
+                            <div
+                                class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+                                <div class="group relative">
+                                    <img src="https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                                        alt="Front of men&#039;s Basic Tee in black."
+                                        class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80" />
+                                    <div class="mt-4 flex justify-between">
+                                        <div>
+                                            <h3 class="text-sm text-gray-700">
+                                                <a href="#">
+                                                    <span aria-hidden="true" class="absolute inset-0" "></span>
+                                                    Basic Tee
+                                                </a>
+                                            </h3>
+                                            <p class=" mt-1 text-sm text-gray-500">Black</p>
+                                        </div>
+                                        <p class="text-sm font-medium text-gray-900">$35</p>
+                                    </div>
+                                </div>
+                                <div class="group relative">
+                                    <img src="images/katetsib-embroidery-2937593_1920 1.png"
+                                        alt="Front of men&#039;s Basic Tee in white."
+                                        class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80" />
+                                    <div class="mt-4 flex justify-between">
+                                        <div>
+                                            <h3 class="text-sm text-gray-700">
+                                                <a href="#">
+                                                    <span aria-hidden="true" class="absolute inset-0"></span>
+                                                    Basic Tee
+                                                </a>
+                                            </h3>
+                                            <p class="mt-1 text-sm text-gray-500">Aspen White</p>
+                                        </div>
+                                        <p class="text-sm font-medium text-gray-900">$35</p>
+                                    </div>
+                                </div>
+                                <div class="group relative">
+                                    <img src="images/tinademyanchuk-embroidery-5308954_1920 1.png"
+                                        alt="Front of men&#039;s Basic Tee in dark gray."
+                                        class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80" />
+                                    <div class="mt-4 flex justify-between">
+                                        <div>
+                                            <h3 class="text-sm text-gray-700">
+                                                <a href="#">
+                                                    <span aria-hidden="true" class="absolute inset-0"></span>
+                                                    Basic Tee
+                                                </a>
+                                            </h3>
+                                            <p class="mt-1 text-sm text-gray-500">Charcoal</p>
+                                        </div>
+                                        <p class="text-sm font-medium text-gray-900">$35</p>
+                                    </div>
+                                </div>
+                                <div class="group relative">
+                                    <img src="images/vincenttim-couture-7625128_1920 1.png"
+                                        alt="Front of men&#039;s Artwork Tee in peach with white and brown dots forming an isometric cube."
+                                        class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80" />
+                                    <div class="mt-4 flex justify-between">
+                                        <div>
+                                            <h3 class="text-sm text-gray-700">
+                                                <a href="#">
+                                                    <span aria-hidden="true" class="absolute inset-0"></span>
+                                                    Artwork Tee
+                                                </a>
+                                            </h3>
+                                            <p class="mt-1 text-sm text-gray-500">Iso Dots</p>
+                                        </div>
+                                        <p class="text-sm font-medium text-gray-900">$35</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
+                </div>
+                </div>
             </section>
-
-            <div class="card-2" style="width: 18rem;">
-                <img src="images/katetsib-embroidery-2937593_1920 1.png" class="card-img-top-2" alt="Bordado">
-                <div class="card-body-2">
-                    <h5 class="card-title-2">R$ 20,00</h5>
-                    <p class="card-text-2">Some quick example text to build on the card title and make up the bulk of
-                        the cards content.</p>
-                </div>
-            </div>
-
-            <div class="card-3" style="width: 18rem;">
-                <img src="images/tinademyanchuk-embroidery-5308954_1920 1.png" class="card-img-top-3" alt="Bordado">
-                <div class="card-body-3">
-                    <h5 class="card-title-3">R$ 30,00</h5>
-                    <p class="card-text-3">Some quick example text to build on the card title and make up the bulk
-                        of
-                        the cards content.</p>
-                </div>
-            </div>
 
             <section class="section-2">
                 <h1 class="section-h1-2">Content from section</h1>
                 <p class="section-p-2">Content from section p</p>
 
                 <div class="section-content-2">
-                    <blockquote class="text-center text-2xl font-semibold text-gray-900 italic dark:text-white">
+                    <blockquote id="text-center text-2xl font-semibold text-gray-900 italic dark:text-white"
+                        class="block">
                         When you look
-                        <span
-                            class="relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-#2191fb-500">
-                            <span class="relative text-white dark:text-gray-950">annoyed</span>
-                        </span>
+                        <div>
+                            <span
+                                class="relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-pink-500">
+                                <span class="relative text-white dark:text-gray-950">annoyed</span>
+                            </span>
+                        </div>
                         all the time, people think that you're busy.
                     </blockquote>
                 </div>
@@ -137,6 +206,153 @@
 
                 </div>
             </section>
+
+            <section class="text">
+                <div class="bg-white py-24 sm:py-32">
+                    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                        <div class="mx-auto max-w-2xl lg:mx-0">
+                            <h2 class="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">From
+                                the blog</h2>
+                            <p class="mt-2 text-lg/8 text-gray-600">Learn how to grow your business with our expert
+                                advice.</p>
+                        </div>
+                        <div
+                            class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+                            <article class="flex max-w-xl flex-col items-start justify-between">
+                                <div class="flex items-center gap-x-4 text-xs">
+                                    <time datetime="2020-03-16" class="text-gray-500">Mar 16, 2020</time>
+                                    <a href="#"
+                                        class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Marketing</a>
+                                </div>
+                                <div class="group relative grow">
+                                    <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
+                                        <a href="#">
+                                            <span class="absolute inset-0"></span>
+                                            Boost your conversion rate
+                                        </a>
+                                    </h3>
+                                    <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600">Illo sint voluptas. Error
+                                        voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo
+                                        necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel.
+                                        Iusto corrupti dicta.</p>
+                                </div>
+                                <div class="relative mt-8 flex items-center gap-x-4 justify-self-end">
+                                    <img src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                        alt="" class="size-10 rounded-full bg-gray-50" />
+                                    <div class="text-sm/6">
+                                        <p class="font-semibold text-gray-900">
+                                            <a href="#">
+                                                <span class="absolute inset-0"></span>
+                                                Michael Foster
+                                            </a>
+                                        </p>
+                                        <p class="text-gray-600">Co-Founder / CTO</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="flex max-w-xl flex-col items-start justify-between">
+                                <div class="flex items-center gap-x-4 text-xs">
+                                    <time datetime="2020-03-10" class="text-gray-500">Mar 10, 2020</time>
+                                    <a href="#"
+                                        class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Sales</a>
+                                </div>
+                                <div class="group relative grow">
+                                    <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
+                                        <a href="#">
+                                            <span class="absolute inset-0"></span>
+                                            How to use search engine optimization to drive sales
+                                        </a>
+                                    </h3>
+                                    <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600">Optio cum necessitatibus dolor
+                                        voluptatum provident commodi et. Qui aperiam fugiat nemo cumque.</p>
+                                </div>
+                                <div class="relative mt-8 flex items-center gap-x-4 justify-self-end">
+                                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                        alt="" class="size-10 rounded-full bg-gray-50" />
+                                    <div class="text-sm/6">
+                                        <p class="font-semibold text-gray-900">
+                                            <a href="#">
+                                                <span class="absolute inset-0"></span>
+                                                Lindsay Walton
+                                            </a>
+                                        </p>
+                                        <p class="text-gray-600">Front-end Developer</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="flex max-w-xl flex-col items-start justify-between">
+                                <div class="flex items-center gap-x-4 text-xs">
+                                    <time datetime="2020-02-12" class="text-gray-500">Feb 12, 2020</time>
+                                    <a href="#"
+                                        class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Business</a>
+                                </div>
+                                <div class="group relative grow">
+                                    <h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
+                                        <a href="#">
+                                            <span class="absolute inset-0"></span>
+                                            Improve your customer experience
+                                        </a>
+                                    </h3>
+                                    <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600">Cupiditate maiores ullam
+                                        eveniet adipisci in doloribus nulla minus. Voluptas iusto libero adipisci rem et
+                                        corporis. Nostrud sint anim sunt aliqua. Nulla eu labore irure incididunt velit
+                                        cillum quis magna dolore.</p>
+                                </div>
+                                <div class="relative mt-8 flex items-center gap-x-4 justify-self-end">
+                                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                        alt="" class="size-10 rounded-full bg-gray-50" />
+                                    <div class="text-sm/6">
+                                        <p class="font-semibold text-gray-900">
+                                            <a href="#">
+                                                <span class="absolute inset-0"></span>
+                                                Tom Cook
+                                            </a>
+                                        </p>
+                                        <p class="text-gray-600">Director of Product</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="end">
+                <section class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:px-8">
+                    <div
+                        class="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,var(--color-indigo-100),white)] opacity-20">
+                    </div>
+                    <div
+                        class="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl ring-1 shadow-indigo-600/10 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center">
+                    </div>
+                    <div class="mx-auto max-w-2xl lg:max-w-4xl">
+                        <img src="https://tailwindcss.com/plus-assets/img/logos/workcation-logo-indigo-600.svg" alt=""
+                            class="mx-auto h-12" />
+                        <figure class="mt-10">
+                            <blockquote class="text-center text-xl/8 font-semibold text-gray-900 sm:text-2xl/9">
+                                <p>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas
+                                    culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.”
+                                </p>
+                            </blockquote>
+                            <figcaption class="mt-10">
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                    alt="" class="mx-auto size-10 rounded-full" />
+                                <div class="mt-4 flex items-center justify-center space-x-3 text-base">
+                                    <div class="font-semibold text-gray-900">Judith Black</div>
+                                    <svg viewBox="0 0 2 2" width="3" height="3" aria-hidden="true"
+                                        class="fill-gray-900">
+                                        <circle r="1" cx="1" cy="1" />
+                                    </svg>
+                                    <div class="text-gray-600">CEO of Workcation</div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </section>
+
+            </section>
+
         </article>
     </main>
 
