@@ -1,27 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Miranda+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
 @import "tailwindcss";
-
-
-* {
-    margin: 0;
-    padding: 0;
-}
 
 header {
     background-color: #2191fb;
     mask-image: linear-gradient(to bottom, #2191fb, transparent #cf5334);
-    position: fixed;
-    top: 0;
     width: 100%;
 }
 
 .buttons {
     background-color: #2191fb;
     color: #FDFFFC;
-    margin-top: -220px;
+    margin-top: -185px;
     margin-left: 300px;
     width: 60%;
     position: absolute;
+}
+
+.nav {
+    background-color: #2191fb;
+    width: 100%;
+    height: 150px;
+    top: 0;
+    text-align: center;
 }
 
 a {
@@ -111,6 +112,7 @@ a {
     margin-left: -10px;
     cursor: pointer;
     transition: 0.5s;
+    width: 150px;
 }
 
 ul {
@@ -165,7 +167,6 @@ ul {
     width: 100%;
     height: 1080px;
     mask-image: linear-gradient(to bottom, #2191fb, transparent);
-    background-image: url(images/Design\ sem\ nome.png);
     margin-top: 0;
 }
 
@@ -209,6 +210,7 @@ ul {
     transition: 0.6s;
     margin: auto;
 }
+
 .card-h3 {
     margin-top: 20px;
     font-size: 24px;
@@ -303,13 +305,6 @@ ul {
     margin-top: 100px;
 }
 
-.search-bar > input {
-    margin-left: 1000px;
-    margin-top: -125px;
-    position: absolute;
-    width: 20%;
-}
-
 .block {
     text-align: center;
     font-size: 50px;
@@ -322,4 +317,128 @@ ul {
 
 h2 {
     font-size: 40px;
+}
+
+@media (max-width: 430px) {
+
+    header {
+        background-color: #2191fb;
+        width: 100%;
+        height: 50px;
+        top: 0;
+        text-align: center;
+    }
+
+    .nav {
+        width: 430px;
+        height: 100px;
+        background-color: #2191fb;
+        display: block;
+    }
+
+    .img-logo {
+        display: flex;
+        width: 100px;
+    }
+
+    .img-banner-container {
+        margin-top: 50px;
+        mask-image: linear-gradient(to bottom, #2191fb, transparent);
+        align-items: center;
+    }
+
+    .home {
+        font-size: 7px;
+        margin-top: 75px;
+    }
+
+    .bordados {
+        font-size: 7px;
+        margin-top: 75px;
+    }
+
+    .sobre-nos {
+        font-size: 7px;
+        margin-top: 75px;
+    }
+
+    .contatos {
+        font-size: 7px;
+        margin-top: 75px;
+    }
+
+    .carrinho {
+        font-size: 7px;
+        margin-top: 75px;
+        margin-left: 30px;
+    }
+
+    .conta {
+        font-size: 7px;
+        margin-top: 75px;
+        margin-left: 70px;
+    }
+
+    .buttons {
+        margin-left: 50px;
+        display: flex;
+        width: 0%;
+        margin-top: -220px;
+    }
+
+    .article-h1 {
+        margin-top: -500px;
+        font-size: 40px;
+        margin-left: 94px;
+        width: 100%;
+    }
+
+    .cards {
+        margin-top: -400px;
+    }
+
+    .card-1 {
+        margin-top: 1000px;
+        position: absolute;
+        width: 90%;
+    }
+
+    .card-2 {
+        margin-top: 1490px;
+        position: absolute;
+        width: 90%;
+    }
+
+    .card {
+        margin-top: 500px;
+        position: absolute;
+        width: 90%;
+    }
+
+    .section {
+        text-align: center;
+        margin-top: 2100px;
+        color: black;
+    }
+
+    .section-h1 {
+        font-size: 40px;
+        color: black;
+    }
+
+    .section-2 {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .section-h1-2 {
+        font-size: 40px;
+    }
+
+    .block {
+        text-align: center;
+        font-size: 50px;
+        font-style: oblique;
+        width: 100%;
+    }
 }
