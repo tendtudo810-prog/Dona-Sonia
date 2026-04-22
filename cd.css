@@ -1,0 +1,154 @@
+* {
+    background-color: #121828;
+    color: white;
+}
+
+.borda {
+
+}
+
+.container {
+    margin-top: 150px;
+}
+
+.icon {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+.lab {
+    font-size: 1rem;
+    margin-left: 730px;
+    position: absolute;
+    font-weight: 550;
+    font-family: "Inter", sans-serif;
+    margin-top: 80px;
+}
+
+.nome {
+    margin-left: 730px;
+    width: 400px;
+    height: 30px;
+    margin-top: 110px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.lb {
+    font-size: 1rem;
+    margin-left: 730px;
+    position: absolute;
+    font-weight: 550;
+    font-family: "Inter", sans-serif;
+    margin-top: -100px;    
+}
+
+.senha {
+    margin-left: 730px;
+    width: 400px;
+    height: 30px;
+    margin-top: -70px;
+    border-radius: 5px;
+    border: 1px solid white;
+    position: absolute;
+}
+
+.container-1 {
+    margin-top: 130px;
+}
+
+.lb-1 {
+    font-size: 1rem;
+    margin-left: 730px;
+    position: absolute;
+    font-weight: 550;
+    font-family: "Inter", sans-serif;
+}
+
+
+.inp {
+    margin-left: 730px;
+    width: 400px;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    position: absolute;
+    border: 1px solid white;
+}
+
+
+
+.lb-2 {
+    font-size: 1rem;
+    margin-left: 730px;
+    position: absolute;
+    font-weight: 550;
+    margin-top: 100px;
+    font-family: "Inter", sans-serif;
+}
+
+.senha-1 {
+    margin-left: 730px;
+    width: 400px;
+    height: 30px;
+    margin-top: 130px;
+    border-radius: 5px;
+    position: absolute;
+    border: 1px solid white;
+}
+
+.but {
+    padding: 8px;
+    font-size: 18px;
+    background-color: #2191fb;
+    border: 2px solid #2191fb;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    width: 21.4%;
+    margin-left: 730px;
+    margin-top: 260px;
+    cursor: pointer;
+}
+
+.lembrar {
+    margin-top: 50px;
+    margin-left: 30px;
+    position: absolute;
+    width: 100%;
+}
+
+.check {
+    font-size: 50px;
+    margin-left: 700px;
+    margin-top: -157px;
+    position: absolute;
+}
+
+.text {
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+    margin-top: -159px;
+    margin-left: 730px;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+}
+
+.forgot-pass {
+    margin-left: 970px;
+    margin-top: -108px;
+    position: absolute;
+}
+
+.link {
+    text-decoration-line: none;
+    color: #2191fb;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+}
