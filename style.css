@@ -2,6 +2,10 @@
 
 @import "tailwindcss";
 
+html, body {
+    overflow-x: hidden;
+}
+
 header {
     background-color: #2191fb;
     mask-image: linear-gradient(to bottom, #2191fb, transparent #cf5334);
