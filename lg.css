@@ -16,36 +16,8 @@ html, body {
     background-color: var(--branco);
 }
 
-a {
-    color: #2191fb;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.corpo {
-    margin-top: 100px;
-}
-
-.borda {
-    border: 2px solid var(--branco);
-    border-radius: 10px;
-    padding-top: 860px;
-    padding-left: 600px;
-    position: absolute;
-    margin-left: 630px;
-    margin-top: -1070px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.container {
-    margin-top: 150px;
-}
-
 .icon {
-    font-size: 3rem;
+    font-size: 3vw;
     text-align: center;
 }
 
@@ -54,57 +26,18 @@ a:hover {
     font-family: "Inter", sans-serif;
 }
 
-.lab {
-    font-size: 1rem;
-    margin-left: 730px;
-    position: absolute;
-    font-weight: 550;
-    font-family: "Inter", sans-serif;
-    margin-top: 80px;
-}
-
-.nome {
-    margin-left: 730px;
-    width: 400px;
-    height: 30px;
-    margin-top: 110px;
-    border-radius: 5px;
-    border: 1px solid var(--borda);
-    background-color: var(--branco);
+.container-1 {
+    margin-top: 6vw;
 }
 
 .lb {
     font-size: 1rem;
-    margin-left: 730px;
-    position: absolute;
-    font-weight: 550;
-    font-family: "Inter", sans-serif;
-    margin-top: -100px;    
-}
-
-.senha {
-    margin-left: 730px;
-    width: 400px;
-    height: 30px;
-    margin-top: -70px;
-    border-radius: 5px;
-    border: 1px solid var(--borda);
-    position: absolute;
-    background-color: var(--branco);
-}
-
-.container-1 {
-    margin-top: 130px;
-}
-
-.lb-1 {
-    font-size: 1rem;
-    margin-left: 730px;
+    margin-left: 38.4vw;
+    margin-top: -0.3vw;
     position: absolute;
     font-weight: 550;
     font-family: "Inter", sans-serif;
 }
-
 
 .inp {
     margin-left: 730px;
@@ -117,45 +50,33 @@ a:hover {
     background-color: var(--branco);
 }
 
+.container-2 {
+    margin-top: 23vh;
+}
 
-
-.lb-2 {
+.lb-1 {
     font-size: 1rem;
     margin-left: 730px;
     position: absolute;
     font-weight: 550;
-    margin-top: 100px;
     font-family: "Inter", sans-serif;
 }
 
-.senha-1 {
+
+.senha {
     margin-left: 730px;
     width: 400px;
     height: 30px;
-    margin-top: 130px;
+    margin-top: 30px;
     border-radius: 5px;
     position: absolute;
     border: 1px solid var(--borda);
     background-color: var(--branco);
 }
 
-.but {
-    padding: 10px;
-    font-size: 20px;
-    background-color: #2191fb;
-    border: 2px solid #2191fb;
-    color: white;
-    border-radius: 10px;
-    font-weight: 600;
-    width: 21.4%;
-    margin-left: 730px;
-    margin-top: 260px;
-    cursor: pointer;
-}
-
 .lembrar {
-    margin-top: 50px;
-    margin-left: 30px;
+    margin-top: 35vh;
+    margin-left: 4vh;
     position: absolute;
     width: 100%;
 }
@@ -174,18 +95,17 @@ a:hover {
 
 .text {
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     position: absolute;
-    margin-top: -159px;
-    margin-left: 730px;
+    margin-top: -16.9vh;
+    margin-left: 38.5vw;
     font-family: "Inter", sans-serif;
     cursor: pointer;
 }
 
 .forgot-pass {
-    margin-left: 730px;
-    margin-top: 20px;
-    position: relative;
+    margin-left: 51vw;
+    margin-top: 41vh;
 }
 
 .link {
@@ -314,45 +234,4 @@ a:hover {
     color: var(--branco) !important;
     font-weight: 500;
     position: absolute;
-}
-
-.duvidas {
-    display: flex;
-    gap: 10px;
-    margin-left: 750px;
-    margin-top: 140px;
-    font-family: "Roboto", sans-serif;
-}
-
-.duvida {
-    text-align: center;
-    font-size: 20px;
-    margin-top: 200px;
-    cursor: pointer;
-}
-
-.login {
-    font-size: 20px;
-    text-align: center;
-    margin-top: 200px;
-    text-decoration: none;
-    color: #2191fb;
-    font-weight: 540;
-    cursor: pointer;
-}
-
-.seta {
-    width: 10vw;
-    height: 10vw;
-    position: absolute;
-    margin-left: 5vw;
-    margin-top: 10vh;
-    cursor: pointer;
-}
-
-@media (max-width: 430px) {
-    .borda {
-        display: flex;
-        justify-content: center;
-    }
 }

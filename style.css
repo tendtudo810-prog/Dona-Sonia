@@ -16,7 +16,6 @@ header {
     background-color: #2191fb;
     color: #FDFFFC;
     margin-top: -185px;
-    margin-left: 300px;
     width: 60%;
     position: absolute;
 }
@@ -29,13 +28,6 @@ header {
     text-align: center;
 }
 
-a {
-    background-color: #2191fb;
-    color: #FDFFFC;
-    text-decoration: none;
-    position: relative;
-}
-
 .home {
     background-color: #2191fb;
     display: flex;
@@ -46,6 +38,7 @@ a {
     letter-spacing: 0.3px;
     font-family: "Miranda Sans", sans-serif;
     transition: 0.5s;
+    position: absolute;
 }
 
 .bordados {
@@ -96,7 +89,6 @@ a {
     letter-spacing: 0.3px;
     font-family: "Miranda Sans", sans-serif;
     transition: 0.5s;
-    position: absolute;
 }
 
 .conta {
@@ -109,7 +101,6 @@ a {
     letter-spacing: 0.3px;
     font-family: "Miranda Sans", sans-serif;
     transition: 0.5s;
-    position: absolute;
 }
 
 .img-logo {
@@ -118,6 +109,7 @@ a {
     cursor: pointer;
     transition: 0.5s;
     width: 150px;
+    position: relative;
 }
 
 ul {
